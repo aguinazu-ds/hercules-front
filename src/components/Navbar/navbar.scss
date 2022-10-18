@@ -1,0 +1,46 @@
+.navbar {
+    height: 80px;
+    align-items: center; 
+    display: flex;
+    // background-color: white;
+    background-color: #222338;
+    // border-bottom: 1px solid #e6e6e6;
+    
+    
+    .wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+
+        p {
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            color: #151D48;
+        }
+
+        .botones {
+            
+            .cambiarEmpresa {
+                color: #06bbff;
+                margin-right: 5px;
+                font-weight: 600;
+                border-color: #06bbff;
+                // background-color: #1034F2;
+            }
+
+            .logout {
+                color: red;
+                margin-left: 5px;
+                font-weight: 600;
+                border-color: red;
+                // background-color: rgb(243, 45, 45);
+
+            }
+        }
+    }
+    
+
+}

@@ -1,0 +1,100 @@
+[
+    {
+        "title": "EDICIÓN",
+        "icon": "DescriptionOutlinedIcon",
+        "childrens": [
+            {
+                "title": "Representantes Legales",
+                "path": "/"
+            },
+            {
+                "title": "Empresas",
+                "path": "/"
+            },
+            {
+                "title": "Indicadores Previsionales",
+                "path": "/"
+            },
+            {
+                "title": "Previsión de Salud",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "PARÁMETROS",
+        "icon": "AssessmentOutlinedIcon",
+        "childrens": [
+            {
+                "title": "Configuración",
+                "path": "/"
+            },
+            {
+                "title": "Factores de Actualización",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "MOVIMIENTOS",
+        "icon": "SwapVerticalCircleOutlinedIcon",
+        "childrens": [
+            {
+                "title": "Movimientos de haberes/descuentos",
+                "path": "/"
+            },
+            {
+                "title": "Descuento en cuotas",
+                "path": "/"
+            },
+            {
+                "title": "Descuento en cuotas",
+                "path": "/"
+            },
+            {
+                "title": "Ingreso créditos CCAF",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "HERRAMIENTAS",
+        "icon": "CalculateOutlinedIcon",
+        "childrens": [
+            {
+                "title": "Libro de remuneraciones",
+                "path": "/"
+            },
+            {
+                "title": "Certificado de sueldo",
+                "path": "/"
+            },
+            {
+                "title": "Declaración jurada de rentas",
+                "path": "/"
+            },
+            {
+                "title": "Nómina de trabajadores",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "INFORMES",
+        "icon": "SourceOutlinedIcon",
+        "childrens": [
+            {
+                "title": "Informes de haberes y descuentos",
+                "path": "/"
+            },
+            {
+                "title": "LRE para gratificación legal",
+                "path": "/"
+            },
+            {
+                "title": "Detalle pago imposiciones",
+                "path": "/"
+            }
+        ]
+    }
+]

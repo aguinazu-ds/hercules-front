@@ -1,0 +1,165 @@
+.sidebar {
+    // background-color: #1034F2;
+    background-color: white;
+    height: 100vh;
+    width: 300px;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+    box-shadow: inset -1px 0px 0px rgba(20, 27, 53, 0.12);
+
+    .top {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        .logo {
+            font-size: 30px;
+            font-weight: 600;
+            color: #333333;
+            line-height: 150%;
+        }
+
+        .logo1 {
+            color: #377DFF;
+            font-size: 30px;
+            padding-right: 24px;
+        }
+
+    }
+
+
+    .bottom {
+        padding-left:0px;
+        padding-bottom: 40px;
+
+        .open {
+
+            .sidebar-item {
+                padding-left: 12px;
+                padding-right: 12px;
+                .sidebar-title:hover {
+                    background-color: #377DFF;
+                    border-radius: 10px;
+                    color: white;
+                }
+    
+                .arrowDown {
+                    padding-right: 24px;
+                    transform: rotate(180deg);
+                }
+    
+                .sidebar-title {
+                    font-weight: 500;
+                    letter-spacing: 0.03em;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    padding-left: 24px;
+                    color: #333333;
+                    font-size: 15px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: space-between;
+                    transition: background-color 0.15s;
+                }
+    
+                .sidebar-content {
+                    padding-top: .25em;
+                    height: 0;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .sidebar-item {
+            padding-left: 12px;
+            padding-right: 12px;
+            .sidebar-title:hover {
+                background-color: #377DFF;
+                border-radius: 10px;
+                color: white;
+            }
+
+            .arrowDown {
+                padding-right: 24px;
+            }
+
+            .sidebar-title {
+                font-weight: 500;
+                letter-spacing: 0.03em;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                color: #333333;
+                font-size: 15px;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                transition: background-color 0.15s;
+            }
+
+            .sidebar-content {
+                padding-top: .25em;
+                height: 0;
+                overflow: hidden;
+            }
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0 36px 0 35px;
+            .sideBarItem:hover {
+                background-color: #377DFF;
+                border-radius: 10px;
+                color: white;
+            }
+            
+
+            li {
+                color: #B2B2B2;
+                font-size: 14px;
+                cursor: pointer;
+                // background-color: #3b5af1;
+                padding-left: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                margin-top: 5px;
+                font-weight: 500;
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+            }
+
+            .title {
+                font-weight: 500;
+                letter-spacing: 0.03em;
+                padding-top: 30px;
+                padding-bottom: 10px;
+                color: #333333;
+                font-size: 15px;
+                cursor: pointer;
+            }
+
+            .sideIcon {
+                padding-right: 10px;
+                font-size: 22px;
+            }
+            
+            .liEmpresas {
+                color: white;
+                // background-color: #1034F2;
+                background-color: #377DFF;
+                // border-top-left-radius: 10px;
+                // border-bottom-left-radius: 10px;
+                border-radius: 10px;
+                font-weight: 500;
+            }
+        }
+    }
+}
