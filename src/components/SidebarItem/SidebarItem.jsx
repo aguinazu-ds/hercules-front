@@ -4,9 +4,7 @@ import AssessmentOutlinedIcon from '@mui/icons-material/AssessmentOutlined';
 import SwapVerticalCircleOutlinedIcon from '@mui/icons-material/SwapVerticalCircleOutlined';
 import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
 import SourceOutlinedIcon from '@mui/icons-material/SourceOutlined';
-
-import { Icon } from '@mui/material';
-
+import { Link, useLocation } from "react-router-dom";
 
 import { useState } from 'react';
 
@@ -27,14 +25,17 @@ export default function SidebarItem({item}) {
             default:
                 return null;
         }
-    } 
+    }
+    const location = useLocation();
+
+    console.log(location.pathname);
 
     if (item.childrens) {
         return (
             <div className={open ? "sidebar-item open" : "sidebar-item"}>
                 <div className="sidebar-title" onClick={() => setOpen(!open)}>
                     <MaterialIcon icon={item.icon} />
-                    <span>
+                    <span className='title'>
                         {item.title}
                     </span>
                     <KeyboardArrowDownIcon className='arrowDown'/>
@@ -43,10 +44,10 @@ export default function SidebarItem({item}) {
                 <div className="sidebar-content">
                     {item.childrens.map((child, index) => 
                         <div className='child'>
-                            <span className='line'></span>
-                            <div className='sidebar-item-child'>
-                            {child.title}
-                            </div>
+                            {/* <span className='line'></span> */}
+                            <Link to={child.path} className={location.pathname === '/' + child.path ? 'sidebar-item-child selected-route' : 'sidebar-item-child'}>
+                                {child.title}
+                            </Link>
                         </div>)}
                 </div>
             </div>

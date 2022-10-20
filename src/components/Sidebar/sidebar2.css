@@ -1,6 +1,11 @@
 .sidebar {
     /* background-color: white; */
-    background-color: #222338;
+    /* background-color: #222338; */
+    /* background-color: #066ee7; */
+    /* background: linear-gradient(180deg, #131C55 0%, rgba(19, 28, 85, 0.35) 104.8%, rgba(19, 28, 85, 0) 169.64%); */
+    /* background-color: #0E1B6B; */
+    /* background-color: #066ee7; */
+    background-color: #1034F2;
     height: 100vh;
     width: 300px;
     overflow: auto;
@@ -10,23 +15,23 @@
 }
 
 .top {
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    background-color: #1034F2;
 }
 
 .logo {
     font-size: 30px;
     font-weight: 600;
-    /* color: #333333; */
     color: white;
     line-height: 150%;
 }
 
 .logo1 {
-    color: #066ee7;
+    color: white;
     font-size: 30px;
     padding-right: 24px;
 }
@@ -55,28 +60,37 @@
     padding-bottom: 12px;
     padding-left: 24px;
     padding-right: 24px;
-    /* color: #333333; */
     color: white;
     font-size: 15px;
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
     transition: background-color 0.15s;
     border-radius: 10px;
 }
 
 .sidebar-item.open .sidebar-title {
-    background-color: #066fe7;
     color: white;
     border-radius: 10px;
 }
 
+.sidebar-item.open .sidebar-title:hover {
+    color: rgb(16, 19, 209);
+    border-radius: 10px;
+}
+
 .sidebar-title:hover {
-    background-color: #066ee7;
-    color: white;
+    /* background-color: #066ee7; */
+    /* background-color: #4256D0; */
+    background-color: white;
+    color: rgb(16, 19, 209);
+}
+
+.sidebar-title .title{
+    margin-left: 10px;
 }
 
 .sidebar-title .arrowDown {
+    margin-left: auto;
     transition: transform 0.15s;
 }
 
@@ -108,7 +122,8 @@
     padding-left: 24px;
     padding-right: 24px;
     /* color: #333333; */
-    color: #B2B2B2;
+    /* color: #B2B2B2; */
+    color: white;
     font-size: 15px;
     cursor: pointer;
     display: flex;
@@ -116,19 +131,30 @@
     transition: background-color 0.15s;
     border-radius: 10px;
     margin-left: 4px;
+    margin-bottom: 4px;
     flex: 1;
 }
 
 .sidebar-item-child:hover {
-    /* color: black; */
-    color: white;
+    color: rgb(16, 19, 209);
+    /* color: white; */
     /* background-color: #e5e5e6; */
-    background-color: #2E2F45;
+    background-color: white;
+}
+
+.sidebar-item-child.selected-route {
+    background-color: white;
+    color: #1034F2;
 }
 
 .line {
     border: 1px solid #B2B2B2;
     margin-left: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* .sidebar-item {

@@ -5,19 +5,19 @@
         "childrens": [
             {
                 "title": "Representantes Legales",
-                "path": "/"
+                "path": "representantes-legales"
             },
             {
                 "title": "Empresas",
-                "path": "/"
+                "path": "empresas"
             },
             {
                 "title": "Indicadores Previsionales",
-                "path": "/"
+                "path": "indicadores-previsionales"
             },
             {
                 "title": "Previsión de Salud",
-                "path": "/"
+                "path": "prevision-salud"
             }
         ]
     },
@@ -40,7 +40,7 @@
         "icon": "SwapVerticalCircleOutlinedIcon",
         "childrens": [
             {
-                "title": "Movimientos de haberes/descuentos",
+                "title": "Haberes y Descuentos",
                 "path": "/"
             },
             {
@@ -70,7 +70,7 @@
                 "path": "/"
             },
             {
-                "title": "Declaración jurada de rentas",
+                "title": "Declaración de rentas",
                 "path": "/"
             },
             {
@@ -84,8 +84,8 @@
         "icon": "SourceOutlinedIcon",
         "childrens": [
             {
-                "title": "Informes de haberes y descuentos",
-                "path": "/"
+                "title": "Haberes y Descuentos",
+                "path": "informes-haberes-descuentos"
             },
             {
                 "title": "LRE para gratificación legal",
